@@ -1,0 +1,31 @@
+(defun c:ResetPagina (/ ss i ent lay)
+  (setq ss (ssget "X" '((0 . "TEXT,MTEXT")(8 . "PAGINA")))) ; seleciona textos e mtext da layer PAGINA
+  (if ss
+    (progn
+      (setq i 0)
+      (repeat (sslength ss)
+        (setq ent (ssname ss i))
+        (setq entData (entget ent))
+        (setq lay (cdr (assoc 8 entData)))
+        (if (= lay "PAGINA")
+          (progn
+            (cond
+              ((= (cdr (assoc 0 entData)) "TEXT")
+               (setq entData (subst (cons 1 "PAG") (assoc 1 entData) entData))
+               (entmod entData)
+              )
+              ((= (cdr (assoc 0 entData)) "MTEXT")
+               (setq entData (subst (cons 1 "PAG") (assoc 1 entData) entData))
+               (entmod entData)
+              )
+            )
+          )
+        )
+        (setq i (1+ i))
+      )
+      (princ "\nPaginação Resetada.")
+    )
+    (princ "\nNenhum texto encontrado na layer 'PAGINA'.")
+  )
+  (princ)
+)
