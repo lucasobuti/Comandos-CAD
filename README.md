@@ -9,7 +9,7 @@
 - Substituir qualquer numeração existente na layer ```PAGINA``` por ```PAG```, permitindo reorganizar a numeração das páginas em caso de ajustes.
 
 ### 3\. TPL\_PLOT.lsp
-- plotar as pranchas
+- Plotar as pranchas
 	- Para que o script funcione, cada prancha deve ter um retângulo ao redor. Esse retângulo precisa estar em uma layer específica chamada ```RECTANGLE```, **(os templates novos já estão neste formato)**.
 	- Para alterar o caminho onde as páginas serão salvas, é necessário abrir o arquivo TPL\_PLOT.lsp no Bloco de Notas e editar o campo ```(setq path "C:\\\\...")```, lembrando de usar duas contrabarras ```\\``` em vez de apenas uma. No código tem um exemplo.
 
@@ -28,5 +28,6 @@
  **pagina** -> ```RESETPAGINA```
  
  **TPL\_PLOT** -> ```TPL_PLOT```
+
 
 
