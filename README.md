@@ -15,11 +15,21 @@
 
 # **Como carregar os scripts no CAD:**
 
-1. No CAD, digite o comando ```APPLOAD``` e execute;
-2. Na janela do explorador de arquivos procure a pasta onde o .lsp esta salvo e clique em ```LOAD```;
-   ![appload](\Imagens/APPLOAD.png)
-4. Na parte inferior do explorador de arquivos ele vai indicar o status, se aparecer ```XXX.lsp successfully loaded``` deu certo; **(Se quiser pode carregar mais de uma script de uma vez, so precisa verificar se todos foram carregados com sucesso)**.
-5. Executar o comando para o script em questão que foi carregado. Os comandos para cada .lsp estão logo abaixo.
+**1**. No CAD, digite o comando ```APPLOAD``` e execute;
+**2**. Na janela do explorador de arquivos procure a pasta onde o .lsp esta salvo e clique em ```LOAD```;
+   
+![appload](/Imagens/APPLOAD.png)
+   
+**3**. Na parte inferior do explorador de arquivos ele vai indicar o status, se aparecer ```XXX.lsp successfully loaded``` deu certo; **(Se quiser pode carregar mais de uma script de uma vez, so precisa verificar se todos foram carregados com sucesso)**.
+
+![appload](/Imagens/LOAD.png)
+
+> Se aparecer a mensagem de segurança clique em ```Always Load```;
+
+![appload](/Imagens/SECURITY.png)
+
+
+**4**. Executar o comando para o script carregado. Os comandos para cada .lsp estão logo abaixo.
 
 
 # **Lista de Comandos:**
@@ -29,6 +39,7 @@
  **pagina** -> ```RESETPAGINA```
  
  **TPL\_PLOT** -> ```TPL_PLOT```
+
 
 
 
