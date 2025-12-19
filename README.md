@@ -17,8 +17,9 @@
 
 1. No CAD, digite o comando ```APPLOAD``` e execute;
 2. Na janela do explorador de arquivos procure a pasta onde o .lsp esta salvo e clique em ```LOAD```;
-3. Na parte inferior do explorador de arquivos ele vai indicar o status, se aparecer ```XXX.lsp successfully loaded``` deu certo; **(Se quiser pode carregar mais de uma script de uma vez, so precisa verificar se todos foram carregados com sucesso)**.
-4. Executar o comando para o script em questão que foi carregado. Os comandos para cada .lsp estão logo abaixo.
+   ![appload](\Imagens/APPLOAD.png)
+4. Na parte inferior do explorador de arquivos ele vai indicar o status, se aparecer ```XXX.lsp successfully loaded``` deu certo; **(Se quiser pode carregar mais de uma script de uma vez, so precisa verificar se todos foram carregados com sucesso)**.
+5. Executar o comando para o script em questão que foi carregado. Os comandos para cada .lsp estão logo abaixo.
 
 
 # **Lista de Comandos:**
@@ -28,6 +29,7 @@
  **pagina** -> ```RESETPAGINA```
  
  **TPL\_PLOT** -> ```TPL_PLOT```
+
 
 
 
