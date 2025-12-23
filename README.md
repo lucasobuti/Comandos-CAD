@@ -11,7 +11,7 @@
 ### 3\. TPL\_PLOT.lsp
 - Plotar as pranchas
 	- Para que o script funcione, cada prancha deve ter um retângulo ao redor. Esse retângulo precisa estar em uma layer específica chamada ```RECTANGLE```, **(os templates novos já estão neste formato)**.
-	- Para alterar o caminho onde as páginas serão salvas, é necessário abrir o arquivo TPL\_PLOT.lsp no Bloco de Notas e editar o campo ```(setq path "C:\\\\...")```, lembrando de usar duas contrabarras ```\\``` em vez de apenas uma. No código tem um exemplo.
+	- Para alterar o caminho onde as páginas serão salvas, é necessário abrir o arquivo TPL\_PLOT.lsp no Bloco de Notas e editar o campo ```(setq path "C:\\EXEMPLO\\PLOT\\")``` na parte de Configurações Personalizáveis, lembrando de usar duas contrabarras ```\\``` em vez de apenas uma e de manter obrigatoriamente duas contrabarras ```\\``` no final do caminho.
 
 # **Como carregar os scripts no CAD:**
 
@@ -39,6 +39,7 @@
  **pagina** -> ```RESETPAGINA```
  
  **TPL\_PLOT** -> ```TPL_PLOT```
+
 
 
 
